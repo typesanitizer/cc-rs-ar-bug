@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo "Called my_ar with args: $@"
+exec ar "$@"
